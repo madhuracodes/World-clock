@@ -1,28 +1,36 @@
 main {
   display: block;
   text-align: left;
-  max-width: 450px;
+  max-width: 600px;
   background-color: rgb(250, 246, 240);
-  margin: 0 auto;
-  margin-top: 50px;
+  margin: 60px auto;
   border: 1px solid rgb(164, 178, 239);
   border-radius: 6px;
+  box-shadow: 10px 5px 5px rgb(183, 182, 182);
+  font-family: sans-serif;
+  padding: 30px;
 }
 
 h1 {
   text-align: left;
-  margin-left: 10px;
 }
 .city {
-  margin-left: 10px;
-  margin-right: 50px;
-  margin-top: 50px;
+  line-height: 5px;
+  border-bottom: 1px solid rgb(183, 182, 182);
+  padding: 30px 0;
+  text-align: left;
+}
+
+.city:last-child {
+  border-bottom: none;
 }
 footer {
   margin-top: 30px;
   margin-bottom: 20px;
-  font-size: smaller;
+  font-size: 14px;
   margin-left: 10px;
+  font-family: sans-serif;
+  text-align: center;
 }
 
 a {
@@ -30,19 +38,23 @@ a {
   color: rgb(164, 178, 239);
 }
 select {
-  margin-left: 10px;
+  width: 90%;
+  font-size: 20px;
+  display: block;
+  padding: 5px;
+  color: rgb(183, 182, 182);
+  border-color: rgb(164, 178, 239);
 }
+
 .details {
   display: flex;
   justify-content: space-between;
 }
 .time {
-  font-size: 25px;
+  font-size: 35px;
+  font-weight: bold;
+  opacity: 0.8;
 }
-.berlin {
-  line-height: 5px;
-}
-.mumbai {
-  line-height: 5px;
-  margin-top: 50px;
+.date {
+  opacity: 0.7;
 }
